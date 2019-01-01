@@ -1,6 +1,6 @@
 # RSelenium.extras
 
-A few functionalities i required beyond the functions in the great [R Selenium]("https://github.com/ropensci/RSelenium") package.
+A few functionalities i required beyond the functions in the great [R Selenium](https://github.com/ropensci/RSelenium) package.
 
 
 `getElementAttributeValues(remDr, elem, excludeAttribute = "")`
