@@ -1,16 +1,22 @@
 # RSelenium.extras
 
-Adding a few function to RSelenium
+A few functionalities i required beyond the functions in the great (R Selenium)["https://github.com/ropensci/RSelenium"] package.
 
 
-# getElementAttributeValues(remDr, elem, excludeAttribute = "")
+getElementAttributeValues(remDr, elem, excludeAttribute = "")
 
-# getElementFullXPathfunction(elem, excludeAttribute = "")
+Get all attrivute values of a given element.
 
-# getElementWithDates(remDr)
+getElementWithDates(remDr)
+Extract all dates from a page as elements.
 
-# getElementWithEntities(remDr, spacyModel = "de", entityType = "LOC_B")
+getElementWithEntities(remDr, spacyModel = "de", entityType = "LOC_B")
+Extract all elements given an entity.
 
-# clickElemen2(remDr, elem)
+clickElemen2(remDr, elem)
 
-# mapContainerPort(portNr, password)
+In case an element is not clickable with `$clickElement()`, the element can be clicked with `clickElemen2(remDr, elem)`. It is a wrapper for the javascript function `.click()`.
+
+getElementFullXPathfunction(elem, excludeAttribute = "")
+
+mapContainerPort(portNr, password)
